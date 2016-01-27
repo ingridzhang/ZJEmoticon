@@ -1,0 +1,14 @@
+PODS:
+  - ZJEmoticon (0.1.0)
+
+DEPENDENCIES:
+  - ZJEmoticon (from `../`)
+
+EXTERNAL SOURCES:
+  ZJEmoticon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJEmoticon: 2a40e0004bcd70995006642af3af01d0d63625ce
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C37D6C548A7CB57E9A7FF9FCD904C1B /* Pods-ZJEmoticon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702911F29FE103257FA60E236C802DC9 /* Pods-ZJEmoticon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B0552DAED289EC880D052040F965B3 /* Pods-ZJEmoticon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD159A7D4A2FA9AD88D64E70C51A434 /* Pods-ZJEmoticon_Example-dummy.m */; };
+		6762744225A11537DD99D0C505EC59D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		74DE2276BC050C7CFA3F71641A9C9968 /* Pods-ZJEmoticon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2E7E3397B6CCC3B9EF0949B94A152C /* Pods-ZJEmoticon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911C82C06C30A3C3D556FB958DFB2EE2 /* ZJEmoticon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C1F93143A42460B5166409CE9FBC74 /* ZJEmoticon-dummy.m */; };
+		B46B745F74D474F214C18EDC5418FF3E /* ZJEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBCBD28FFA20B7FE9107BBEB2C542119 /* ZJEmoticon.bundle */; };
+		B6273F7DE93C0FD2ECF7ECAA069A762A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC86CECCE003443049B7C021FE7D5DF6 /* ReplaceMe.m */; };
+		B6B23DF78AC3023F24B936FF2A3211B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B9FEA9B39622317F6F7DB1813367398C /* ZJEmoticon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4CF1DCB394496AEF2BE91C4DC8D252 /* ZJEmoticon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1BD9DAA08EC335B30EA164B45CA000E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		EB277FE78A50C1CEDE22718328838103 /* Pods-ZJEmoticon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 826C720BF18638564133E1D6B9E0589A /* Pods-ZJEmoticon_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37B4CAB024A25ABE4B46999C36449951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A293F359F362FAB2B9E63D838BA589;
+			remoteInfo = "ZJEmoticon-ZJEmoticon";
+		};
+		6B751139D05FDD0D2110FB0AF6F9A560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE179C4F0B41C2CF27663FDABE040879;
+			remoteInfo = ZJEmoticon;
+		};
+		EE73272EBE424900C6ACCD56599C4692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE179C4F0B41C2CF27663FDABE040879;
+			remoteInfo = ZJEmoticon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E39BD1302873F5BC65854CFE3FF7D13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253946792F21DD79769C8CF77F00D87F /* Pods-ZJEmoticon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJEmoticon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		39D8B6F5FC94C146291BEF9B8C5E9CD3 /* Pods-ZJEmoticon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJEmoticon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41169F1B014ACB3487E5F3184EFB5E39 /* Pods-ZJEmoticon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJEmoticon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5252F0A4F179CBB2B24E6F37ED8B8B5D /* ZJEmoticon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZJEmoticon.modulemap; sourceTree = "<group>"; };
+		55E273A82088FBE7176CEC036D9151DA /* Pods-ZJEmoticon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJEmoticon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		589CD5E9BC7EF2714E6885EB3A2F3485 /* Pods-ZJEmoticon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJEmoticon_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C4CF1DCB394496AEF2BE91C4DC8D252 /* ZJEmoticon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJEmoticon-umbrella.h"; sourceTree = "<group>"; };
+		5CA5D4ECB96828103C39931626916704 /* Pods-ZJEmoticon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJEmoticon_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		702911F29FE103257FA60E236C802DC9 /* Pods-ZJEmoticon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJEmoticon_Example-umbrella.h"; sourceTree = "<group>"; };
+		74D13BD5C36EA930A51F032195FB3302 /* Pods-ZJEmoticon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJEmoticon_Tests-resources.sh"; sourceTree = "<group>"; };
+		75C1276B46B286D8001FE5E8A6643D1C /* Pods_ZJEmoticon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJEmoticon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C91FC4AED7F62FF91F3623E83654AC /* ZJEmoticon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJEmoticon-prefix.pch"; sourceTree = "<group>"; };
+		826C720BF18638564133E1D6B9E0589A /* Pods-ZJEmoticon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJEmoticon_Tests-dummy.m"; sourceTree = "<group>"; };
+		8D7BCD271CAD37F56F90F20BA0DAA50B /* Pods-ZJEmoticon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJEmoticon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		95C1F93143A42460B5166409CE9FBC74 /* ZJEmoticon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJEmoticon-dummy.m"; sourceTree = "<group>"; };
+		9801C2CDBBB69B97BC2B513EFACC1DD8 /* ZJEmoticon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJEmoticon.xcconfig; sourceTree = "<group>"; };
+		A0AD829E905F57054C6F1A17AAF21076 /* ZJEmoticon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJEmoticon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F1F3A3D396CF08C672738F8C113F7C /* Pods-ZJEmoticon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJEmoticon_Example-resources.sh"; sourceTree = "<group>"; };
+		A5C0161DB4E0E4EB72789EB1D9AED159 /* Pods_ZJEmoticon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJEmoticon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D07721FC941A6C958BDFA62E10530AFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31A7DF8B2F454E9980498B64BF18DE7 /* Pods-ZJEmoticon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJEmoticon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D99CFECC886A81E6603F5E6908663BAF /* Pods-ZJEmoticon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJEmoticon_Tests.modulemap"; sourceTree = "<group>"; };
+		DF2E7E3397B6CCC3B9EF0949B94A152C /* Pods-ZJEmoticon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJEmoticon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EBCBD28FFA20B7FE9107BBEB2C542119 /* ZJEmoticon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJEmoticon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC86CECCE003443049B7C021FE7D5DF6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		ECC08CAFF040B2A7B9993AE7DB919B8E /* Pods-ZJEmoticon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJEmoticon_Example.modulemap"; sourceTree = "<group>"; };
+		EFD159A7D4A2FA9AD88D64E70C51A434 /* Pods-ZJEmoticon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJEmoticon_Example-dummy.m"; sourceTree = "<group>"; };
+		F1CEDF45100007699AC8283BF11BAB5F /* Pods-ZJEmoticon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJEmoticon_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F83002A7B4B407F258699D3211ACFF60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9C19BB4B2BD42EE4C6A531A9163E45 /* Pods-ZJEmoticon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJEmoticon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD95BB93A90531B941BDDED6D5D0661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B23DF78AC3023F24B936FF2A3211B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD215BBA5C4A357DDE49FF5A75A5F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB07765079D2C7ADBBEABDC965C57073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD9DAA08EC335B30EA164B45CA000E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE289456E95187F3BEE197B2C95A74EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6762744225A11537DD99D0C505EC59D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015BBF83753D24D094EEE0F7DDBB96DA /* Pods-ZJEmoticon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0E39BD1302873F5BC65854CFE3FF7D13 /* Info.plist */,
+				D99CFECC886A81E6603F5E6908663BAF /* Pods-ZJEmoticon_Tests.modulemap */,
+				39D8B6F5FC94C146291BEF9B8C5E9CD3 /* Pods-ZJEmoticon_Tests-acknowledgements.markdown */,
+				253946792F21DD79769C8CF77F00D87F /* Pods-ZJEmoticon_Tests-acknowledgements.plist */,
+				826C720BF18638564133E1D6B9E0589A /* Pods-ZJEmoticon_Tests-dummy.m */,
+				5CA5D4ECB96828103C39931626916704 /* Pods-ZJEmoticon_Tests-frameworks.sh */,
+				74D13BD5C36EA930A51F032195FB3302 /* Pods-ZJEmoticon_Tests-resources.sh */,
+				DF2E7E3397B6CCC3B9EF0949B94A152C /* Pods-ZJEmoticon_Tests-umbrella.h */,
+				8D7BCD271CAD37F56F90F20BA0DAA50B /* Pods-ZJEmoticon_Tests.debug.xcconfig */,
+				FB9C19BB4B2BD42EE4C6A531A9163E45 /* Pods-ZJEmoticon_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZJEmoticon_Tests";
+			path = "Target Support Files/Pods-ZJEmoticon_Tests";
+			sourceTree = "<group>";
+		};
+		24EFA6026CC1FF0BD893929E0AEEEB7D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC86CECCE003443049B7C021FE7D5DF6 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		25B10165BFF954301259498AF7EE00F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0161DB4E0E4EB72789EB1D9AED159 /* Pods_ZJEmoticon_Example.framework */,
+				75C1276B46B286D8001FE5E8A6643D1C /* Pods_ZJEmoticon_Tests.framework */,
+				EBCBD28FFA20B7FE9107BBEB2C542119 /* ZJEmoticon.bundle */,
+				A0AD829E905F57054C6F1A17AAF21076 /* ZJEmoticon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB72824A1600493B85377AC190BB1A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				24EFA6026CC1FF0BD893929E0AEEEB7D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				91D8BB38A6B7DACE212F7A4F9A2F3904 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				25B10165BFF954301259498AF7EE00F4 /* Products */,
+				C196D0D5E062F1AF54CF546C27038632 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91D8BB38A6B7DACE212F7A4F9A2F3904 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C74552AA9079A710C7FE7987534E1483 /* ZJEmoticon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C196D0D5E062F1AF54CF546C27038632 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F86EA383D71CB2CFE876900965010F6F /* Pods-ZJEmoticon_Example */,
+				015BBF83753D24D094EEE0F7DDBB96DA /* Pods-ZJEmoticon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C74552AA9079A710C7FE7987534E1483 /* ZJEmoticon */ = {
+			isa = PBXGroup;
+			children = (
+				5EB72824A1600493B85377AC190BB1A5 /* Pod */,
+				DBCFF7B9365FFCE60FF4F970699EFF83 /* Support Files */,
+			);
+			name = ZJEmoticon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DBCFF7B9365FFCE60FF4F970699EFF83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D07721FC941A6C958BDFA62E10530AFF /* Info.plist */,
+				5252F0A4F179CBB2B24E6F37ED8B8B5D /* ZJEmoticon.modulemap */,
+				9801C2CDBBB69B97BC2B513EFACC1DD8 /* ZJEmoticon.xcconfig */,
+				95C1F93143A42460B5166409CE9FBC74 /* ZJEmoticon-dummy.m */,
+				81C91FC4AED7F62FF91F3623E83654AC /* ZJEmoticon-prefix.pch */,
+				5C4CF1DCB394496AEF2BE91C4DC8D252 /* ZJEmoticon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJEmoticon";
+			sourceTree = "<group>";
+		};
+		F86EA383D71CB2CFE876900965010F6F /* Pods-ZJEmoticon_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F83002A7B4B407F258699D3211ACFF60 /* Info.plist */,
+				ECC08CAFF040B2A7B9993AE7DB919B8E /* Pods-ZJEmoticon_Example.modulemap */,
+				41169F1B014ACB3487E5F3184EFB5E39 /* Pods-ZJEmoticon_Example-acknowledgements.markdown */,
+				D31A7DF8B2F454E9980498B64BF18DE7 /* Pods-ZJEmoticon_Example-acknowledgements.plist */,
+				EFD159A7D4A2FA9AD88D64E70C51A434 /* Pods-ZJEmoticon_Example-dummy.m */,
+				F1CEDF45100007699AC8283BF11BAB5F /* Pods-ZJEmoticon_Example-frameworks.sh */,
+				A3F1F3A3D396CF08C672738F8C113F7C /* Pods-ZJEmoticon_Example-resources.sh */,
+				702911F29FE103257FA60E236C802DC9 /* Pods-ZJEmoticon_Example-umbrella.h */,
+				55E273A82088FBE7176CEC036D9151DA /* Pods-ZJEmoticon_Example.debug.xcconfig */,
+				589CD5E9BC7EF2714E6885EB3A2F3485 /* Pods-ZJEmoticon_Example.release.xcconfig */,
+			);
+			name = "Pods-ZJEmoticon_Example";
+			path = "Target Support Files/Pods-ZJEmoticon_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06467C8EAA7C528616BE31BFEB7DBA3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FEA9B39622317F6F7DB1813367398C /* ZJEmoticon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DE961CB0A1872DFB9F8C11347E9E36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C37D6C548A7CB57E9A7FF9FCD904C1B /* Pods-ZJEmoticon_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CA748A7947384D9DA99AC8EC058B36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DE2276BC050C7CFA3F71641A9C9968 /* Pods-ZJEmoticon_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26B21FDC6D3E1590A403A08ABB056D02 /* Pods-ZJEmoticon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECC91E14E47C9AEC7B1604660540991 /* Build configuration list for PBXNativeTarget "Pods-ZJEmoticon_Tests" */;
+			buildPhases = (
+				D85142062408EAC31005776580090704 /* Sources */,
+				FE289456E95187F3BEE197B2C95A74EE /* Frameworks */,
+				B0CA748A7947384D9DA99AC8EC058B36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFB1EB8FEF6DF63E3FF43D82EDC0F53 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJEmoticon_Tests";
+			productName = "Pods-ZJEmoticon_Tests";
+			productReference = 75C1276B46B286D8001FE5E8A6643D1C /* Pods_ZJEmoticon_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E99550B68C62CEDDA662B5170EBE4F6 /* Pods-ZJEmoticon_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C533FEEE408AD68BC016CCF89E6D4A87 /* Build configuration list for PBXNativeTarget "Pods-ZJEmoticon_Example" */;
+			buildPhases = (
+				1D9E2723EC7E3E55E2924084DA25063C /* Sources */,
+				DB07765079D2C7ADBBEABDC965C57073 /* Frameworks */,
+				22DE961CB0A1872DFB9F8C11347E9E36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50551AA0170A293E05D7405FAB01EAA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJEmoticon_Example";
+			productName = "Pods-ZJEmoticon_Example";
+			productReference = A5C0161DB4E0E4EB72789EB1D9AED159 /* Pods_ZJEmoticon_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92A293F359F362FAB2B9E63D838BA589 /* ZJEmoticon-ZJEmoticon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1DE1B88259701AB3129FD630498F4D /* Build configuration list for PBXNativeTarget "ZJEmoticon-ZJEmoticon" */;
+			buildPhases = (
+				7AB205A71E995AA205624B1940A1D483 /* Sources */,
+				8AD215BBA5C4A357DDE49FF5A75A5F4A /* Frameworks */,
+				07088ED25837368349D88DD519150915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZJEmoticon-ZJEmoticon";
+			productName = "ZJEmoticon-ZJEmoticon";
+			productReference = EBCBD28FFA20B7FE9107BBEB2C542119 /* ZJEmoticon.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DE179C4F0B41C2CF27663FDABE040879 /* ZJEmoticon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A56590BF6DEF7B50AE866E09B29FF40 /* Build configuration list for PBXNativeTarget "ZJEmoticon" */;
+			buildPhases = (
+				F405E8133F3E35BEAF9A930F5F42EB92 /* Sources */,
+				6FD95BB93A90531B941BDDED6D5D0661 /* Frameworks */,
+				2E8765B1DF713B39B6C9D0482EA34C50 /* Resources */,
+				06467C8EAA7C528616BE31BFEB7DBA3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E296AD3D4AA8AC9EE1D0617F165BB1DB /* PBXTargetDependency */,
+			);
+			name = ZJEmoticon;
+			productName = ZJEmoticon;
+			productReference = A0AD829E905F57054C6F1A17AAF21076 /* ZJEmoticon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 25B10165BFF954301259498AF7EE00F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E99550B68C62CEDDA662B5170EBE4F6 /* Pods-ZJEmoticon_Example */,
+				26B21FDC6D3E1590A403A08ABB056D02 /* Pods-ZJEmoticon_Tests */,
+				DE179C4F0B41C2CF27663FDABE040879 /* ZJEmoticon */,
+				92A293F359F362FAB2B9E63D838BA589 /* ZJEmoticon-ZJEmoticon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07088ED25837368349D88DD519150915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8765B1DF713B39B6C9D0482EA34C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46B745F74D474F214C18EDC5418FF3E /* ZJEmoticon.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9E2723EC7E3E55E2924084DA25063C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B0552DAED289EC880D052040F965B3 /* Pods-ZJEmoticon_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB205A71E995AA205624B1940A1D483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85142062408EAC31005776580090704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB277FE78A50C1CEDE22718328838103 /* Pods-ZJEmoticon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F405E8133F3E35BEAF9A930F5F42EB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6273F7DE93C0FD2ECF7ECAA069A762A /* ReplaceMe.m in Sources */,
+				911C82C06C30A3C3D556FB958DFB2EE2 /* ZJEmoticon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50551AA0170A293E05D7405FAB01EAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJEmoticon;
+			target = DE179C4F0B41C2CF27663FDABE040879 /* ZJEmoticon */;
+			targetProxy = 6B751139D05FDD0D2110FB0AF6F9A560 /* PBXContainerItemProxy */;
+		};
+		BEFB1EB8FEF6DF63E3FF43D82EDC0F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJEmoticon;
+			target = DE179C4F0B41C2CF27663FDABE040879 /* ZJEmoticon */;
+			targetProxy = EE73272EBE424900C6ACCD56599C4692 /* PBXContainerItemProxy */;
+		};
+		E296AD3D4AA8AC9EE1D0617F165BB1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZJEmoticon-ZJEmoticon";
+			target = 92A293F359F362FAB2B9E63D838BA589 /* ZJEmoticon-ZJEmoticon */;
+			targetProxy = 37B4CAB024A25ABE4B46999C36449951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		113EEE4ACED60EEA9D6C92B69233FD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9801C2CDBBB69B97BC2B513EFACC1DD8 /* ZJEmoticon.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZJEmoticon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		395A4D729183BD751CB525C9308E271A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E273A82088FBE7176CEC036D9151DA /* Pods-ZJEmoticon_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJEmoticon_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJEmoticon_Example/Pods-ZJEmoticon_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJEmoticon_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5986BFF56BE1F630BA6AFA69A302E26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9801C2CDBBB69B97BC2B513EFACC1DD8 /* ZJEmoticon.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZJEmoticon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7D3A54A0C90F4B1A8D909266357F3BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9801C2CDBBB69B97BC2B513EFACC1DD8 /* ZJEmoticon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJEmoticon/ZJEmoticon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJEmoticon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJEmoticon/ZJEmoticon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZJEmoticon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D37B2D6B95A1B7369DE45314E8E677BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7BCD271CAD37F56F90F20BA0DAA50B /* Pods-ZJEmoticon_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJEmoticon_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJEmoticon_Tests/Pods-ZJEmoticon_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJEmoticon_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3A78F39BF8C539E007BA6C81B180F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9C19BB4B2BD42EE4C6A531A9163E45 /* Pods-ZJEmoticon_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJEmoticon_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJEmoticon_Tests/Pods-ZJEmoticon_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJEmoticon_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7CC5A7AD0DA3CEF10D5DD8796DDBE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 589CD5E9BC7EF2714E6885EB3A2F3485 /* Pods-ZJEmoticon_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJEmoticon_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJEmoticon_Example/Pods-ZJEmoticon_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZJEmoticon_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1557F6FC9844AECCD4D044357AA332A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9801C2CDBBB69B97BC2B513EFACC1DD8 /* ZJEmoticon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJEmoticon/ZJEmoticon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJEmoticon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJEmoticon/ZJEmoticon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZJEmoticon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A56590BF6DEF7B50AE866E09B29FF40 /* Build configuration list for PBXNativeTarget "ZJEmoticon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1557F6FC9844AECCD4D044357AA332A /* Debug */,
+				7D3A54A0C90F4B1A8D909266357F3BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECC91E14E47C9AEC7B1604660540991 /* Build configuration list for PBXNativeTarget "Pods-ZJEmoticon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37B2D6B95A1B7369DE45314E8E677BF /* Debug */,
+				D3A78F39BF8C539E007BA6C81B180F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1DE1B88259701AB3129FD630498F4D /* Build configuration list for PBXNativeTarget "ZJEmoticon-ZJEmoticon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5986BFF56BE1F630BA6AFA69A302E26A /* Debug */,
+				113EEE4ACED60EEA9D6C92B69233FD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C533FEEE408AD68BC016CCF89E6D4A87 /* Build configuration list for PBXNativeTarget "Pods-ZJEmoticon_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A4D729183BD751CB525C9308E271A /* Debug */,
+				D7CC5A7AD0DA3CEF10D5DD8796DDBE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

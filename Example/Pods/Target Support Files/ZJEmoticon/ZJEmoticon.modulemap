@@ -1,0 +1,6 @@
+framework module ZJEmoticon {
+  umbrella header "ZJEmoticon-umbrella.h"
+
+  export *
+  module * { export * }
+}
