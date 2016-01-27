@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0C37D6C548A7CB57E9A7FF9FCD904C1B /* Pods-ZJEmoticon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702911F29FE103257FA60E236C802DC9 /* Pods-ZJEmoticon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187C00A11C5861360048843A /* Emoticon.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C00921C5861360048843A /* Emoticon.h */; };
+		187C00A21C5861360048843A /* Emoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C00931C5861360048843A /* Emoticon.m */; };
+		187C00A31C5861360048843A /* EmoticonAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C00941C5861360048843A /* EmoticonAttachment.h */; };
+		187C00A41C5861360048843A /* EmoticonAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C00951C5861360048843A /* EmoticonAttachment.m */; };
+		187C00A51C5861360048843A /* EmoticonPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C00961C5861360048843A /* EmoticonPackage.h */; };
+		187C00A61C5861360048843A /* EmoticonPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C00971C5861360048843A /* EmoticonPackage.m */; };
+		187C00A71C5861360048843A /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 187C00981C5861360048843A /* Emoticons.bundle */; };
+		187C00A81C5861360048843A /* EmoticonViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C00991C5861360048843A /* EmoticonViewController.h */; };
+		187C00A91C5861360048843A /* EmoticonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C009A1C5861360048843A /* EmoticonViewController.m */; };
+		187C00AA1C5861360048843A /* UITextView+Emoticon.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C009B1C5861360048843A /* UITextView+Emoticon.h */; };
+		187C00AB1C5861360048843A /* UITextView+Emoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C009C1C5861360048843A /* UITextView+Emoticon.m */; };
+		187C00AC1C5861360048843A /* ZJEmojiCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C009D1C5861360048843A /* ZJEmojiCell.h */; };
+		187C00AD1C5861360048843A /* ZJEmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C009E1C5861360048843A /* ZJEmojiCell.m */; };
+		187C00AE1C5861360048843A /* ZJFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 187C009F1C5861360048843A /* ZJFlowLayout.h */; };
+		187C00AF1C5861360048843A /* ZJFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C00A01C5861360048843A /* ZJFlowLayout.m */; };
 		58B0552DAED289EC880D052040F965B3 /* Pods-ZJEmoticon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD159A7D4A2FA9AD88D64E70C51A434 /* Pods-ZJEmoticon_Example-dummy.m */; };
 		6762744225A11537DD99D0C505EC59D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		74DE2276BC050C7CFA3F71641A9C9968 /* Pods-ZJEmoticon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2E7E3397B6CCC3B9EF0949B94A152C /* Pods-ZJEmoticon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		911C82C06C30A3C3D556FB958DFB2EE2 /* ZJEmoticon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C1F93143A42460B5166409CE9FBC74 /* ZJEmoticon-dummy.m */; };
 		B46B745F74D474F214C18EDC5418FF3E /* ZJEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBCBD28FFA20B7FE9107BBEB2C542119 /* ZJEmoticon.bundle */; };
-		B6273F7DE93C0FD2ECF7ECAA069A762A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC86CECCE003443049B7C021FE7D5DF6 /* ReplaceMe.m */; };
 		B6B23DF78AC3023F24B936FF2A3211B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		B9FEA9B39622317F6F7DB1813367398C /* ZJEmoticon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4CF1DCB394496AEF2BE91C4DC8D252 /* ZJEmoticon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1BD9DAA08EC335B30EA164B45CA000E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -46,6 +60,21 @@
 
 /* Begin PBXFileReference section */
 		0E39BD1302873F5BC65854CFE3FF7D13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187C00921C5861360048843A /* Emoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoticon.h; sourceTree = "<group>"; };
+		187C00931C5861360048843A /* Emoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoticon.m; sourceTree = "<group>"; };
+		187C00941C5861360048843A /* EmoticonAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonAttachment.h; sourceTree = "<group>"; };
+		187C00951C5861360048843A /* EmoticonAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonAttachment.m; sourceTree = "<group>"; };
+		187C00961C5861360048843A /* EmoticonPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonPackage.h; sourceTree = "<group>"; };
+		187C00971C5861360048843A /* EmoticonPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonPackage.m; sourceTree = "<group>"; };
+		187C00981C5861360048843A /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		187C00991C5861360048843A /* EmoticonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonViewController.h; sourceTree = "<group>"; };
+		187C009A1C5861360048843A /* EmoticonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonViewController.m; sourceTree = "<group>"; };
+		187C009B1C5861360048843A /* UITextView+Emoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Emoticon.h"; sourceTree = "<group>"; };
+		187C009C1C5861360048843A /* UITextView+Emoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Emoticon.m"; sourceTree = "<group>"; };
+		187C009D1C5861360048843A /* ZJEmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJEmojiCell.h; sourceTree = "<group>"; };
+		187C009E1C5861360048843A /* ZJEmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJEmojiCell.m; sourceTree = "<group>"; };
+		187C009F1C5861360048843A /* ZJFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJFlowLayout.h; sourceTree = "<group>"; };
+		187C00A01C5861360048843A /* ZJFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJFlowLayout.m; sourceTree = "<group>"; };
 		253946792F21DD79769C8CF77F00D87F /* Pods-ZJEmoticon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJEmoticon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		39D8B6F5FC94C146291BEF9B8C5E9CD3 /* Pods-ZJEmoticon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJEmoticon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -72,7 +101,6 @@
 		D99CFECC886A81E6603F5E6908663BAF /* Pods-ZJEmoticon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJEmoticon_Tests.modulemap"; sourceTree = "<group>"; };
 		DF2E7E3397B6CCC3B9EF0949B94A152C /* Pods-ZJEmoticon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJEmoticon_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EBCBD28FFA20B7FE9107BBEB2C542119 /* ZJEmoticon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJEmoticon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC86CECCE003443049B7C021FE7D5DF6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		ECC08CAFF040B2A7B9993AE7DB919B8E /* Pods-ZJEmoticon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJEmoticon_Example.modulemap"; sourceTree = "<group>"; };
 		EFD159A7D4A2FA9AD88D64E70C51A434 /* Pods-ZJEmoticon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJEmoticon_Example-dummy.m"; sourceTree = "<group>"; };
 		F1CEDF45100007699AC8283BF11BAB5F /* Pods-ZJEmoticon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJEmoticon_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -136,7 +164,21 @@
 		24EFA6026CC1FF0BD893929E0AEEEB7D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EC86CECCE003443049B7C021FE7D5DF6 /* ReplaceMe.m */,
+				187C00921C5861360048843A /* Emoticon.h */,
+				187C00931C5861360048843A /* Emoticon.m */,
+				187C00941C5861360048843A /* EmoticonAttachment.h */,
+				187C00951C5861360048843A /* EmoticonAttachment.m */,
+				187C00961C5861360048843A /* EmoticonPackage.h */,
+				187C00971C5861360048843A /* EmoticonPackage.m */,
+				187C00981C5861360048843A /* Emoticons.bundle */,
+				187C00991C5861360048843A /* EmoticonViewController.h */,
+				187C009A1C5861360048843A /* EmoticonViewController.m */,
+				187C009B1C5861360048843A /* UITextView+Emoticon.h */,
+				187C009C1C5861360048843A /* UITextView+Emoticon.m */,
+				187C009D1C5861360048843A /* ZJEmojiCell.h */,
+				187C009E1C5861360048843A /* ZJEmojiCell.m */,
+				187C009F1C5861360048843A /* ZJFlowLayout.h */,
+				187C00A01C5861360048843A /* ZJFlowLayout.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -253,6 +295,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187C00AA1C5861360048843A /* UITextView+Emoticon.h in Headers */,
+				187C00AC1C5861360048843A /* ZJEmojiCell.h in Headers */,
+				187C00A81C5861360048843A /* EmoticonViewController.h in Headers */,
+				187C00A31C5861360048843A /* EmoticonAttachment.h in Headers */,
+				187C00A51C5861360048843A /* EmoticonPackage.h in Headers */,
+				187C00A11C5861360048843A /* Emoticon.h in Headers */,
+				187C00AE1C5861360048843A /* ZJFlowLayout.h in Headers */,
 				B9FEA9B39622317F6F7DB1813367398C /* ZJEmoticon-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46B745F74D474F214C18EDC5418FF3E /* ZJEmoticon.bundle in Resources */,
+				187C00A71C5861360048843A /* Emoticons.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +473,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6273F7DE93C0FD2ECF7ECAA069A762A /* ReplaceMe.m in Sources */,
+				187C00AD1C5861360048843A /* ZJEmojiCell.m in Sources */,
 				911C82C06C30A3C3D556FB958DFB2EE2 /* ZJEmoticon-dummy.m in Sources */,
+				187C00A91C5861360048843A /* EmoticonViewController.m in Sources */,
+				187C00A41C5861360048843A /* EmoticonAttachment.m in Sources */,
+				187C00A21C5861360048843A /* Emoticon.m in Sources */,
+				187C00A61C5861360048843A /* EmoticonPackage.m in Sources */,
+				187C00AB1C5861360048843A /* UITextView+Emoticon.m in Sources */,
+				187C00AF1C5861360048843A /* ZJFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
