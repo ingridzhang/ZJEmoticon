@@ -3,7 +3,7 @@
 //  表情键盘OC
 //
 //  Created by apple on 15/8/30.
-//  Copyright © 2015年 itcast. All rights reserved.
+//  Copyright © 2015年 zhangjing. All rights reserved.
 //  表情包模型
 
 #import <Foundation/Foundation.h>
